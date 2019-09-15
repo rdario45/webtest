@@ -1,10 +1,10 @@
 // asking for GitHub username
-var user = prompt('please enter your github username.');
+var user = prompt('Please enter your github username.');
 
 // show username 
-const usernameE =  document.querySelector('#username')
+const usernameElement =  document.querySelector('#username')
 const usernameText = document.createTextNode(user)
-usernameE.appendChild(usernameText)
+usernameElement.appendChild(usernameText)
 
 var r = new XMLHttpRequest();
 
